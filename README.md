@@ -17,3 +17,10 @@ Modifier le nom et le poster du film ayant l'ID 8, en remplaçant le nom par "De
 ```UPDATE movie SET name='Deadpool', poster='https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Deadpool_%282016_poster%29.png/220px-Deadpool_%282016_poster%29.png' WHERE id='8';``` <br><br>
 Modifier le commentaire du film ayant l'ID 10, tu vas simplement "supprimer" le commentaire : <br>
 ```UPDATE movie SET comment = '' WHERE id = '10';``` <br><br>
+
+# MySQLQuete4
+Tu vas créer des requêtes SQL permettant de supprimer des données dans la table "movie". Tu vas donc : <br><br>
+Supprimer le film ayant l'ID 5 : <br>
+```DELETE FROM movie WHERE id='5';``` <br><br>
+Supprimer les films dont l'ID est supérieur à 10 : <br>
+```DELETE FROM movie WHERE id > 10;``` <br><br>
